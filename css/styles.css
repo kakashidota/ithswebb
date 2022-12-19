@@ -1,0 +1,42 @@
+/*element selector */
+
+body {
+    background-color: #FEFCF3;
+}
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #DBA39A;
+}
+
+h2 {
+    color: #DBA39A;
+}
+
+img:hover {
+    width: 300px;
+}
+
+
+/*class selector */ 
+
+.experience {
+    background-color: #F5EBE0;
+}
+
+.skills {
+    background-color: #F0DBDB;
+}
+
+/* ID Selector*/
+#mainheading {
+    color: black;
+}

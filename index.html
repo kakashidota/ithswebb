@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Robins CV</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        hr {
+            border-style: dotted none none;
+            width: 7%;
+            border-color: grey;
+            border-width: 5px;
+        }
+    </style>
+
 </head>
-<body>
+<body ><!-- style="background-color: aquamarine;" -->
     <nav>
     <a href="hobbies.html">Hobbies</a>
     <a href="contact.html">Kontakta mig</a>
@@ -14,30 +29,30 @@
         <tr>
             <td> <img src="images/potatis.jpg"></td>
             <td> 
-                <h1>Robin Kamo</h1>
+                <h1 id="mainheading">Robin Kamo</h1>
                 <h2>Utbildare och techlead på IT-högskolan</h2>
                 <p>Just nu är jag i uppdrag och utbildar <em>CLOUD22</em> utvecklare inom webbutvecklinng på <strong>IT-Högskolan</strong></p>
                 <p>Jag älskar H<sub>2</sub>0 och utöver det så gillar jag även matten med x<sup>x</sup></p>
             </td>
         </tr>
     </table>
-    <hr size="3" noshade>
-    <h3>Utbildningar</h3>
+    <hr>
+    <h1>Utbildningar</h1>
     <ul>
         <li>Apputveckling android och IOS</li>
         <li>DevOps</li>
         <li>Azure Portal assosciate cert</li>
     </ul>
-    <hr size="3" noshade>
+    <hr>
     <h1>Arbetslivserfarenhet</h1>
-    <table border="1">
+    <table border="1" class="experience">
         <tr>
             <th>Datum</th>
             <th>Arbetsplats</th>
         </tr>
         <tr>
             <td>2010-2013</td>
-            <td bgcolor="red">Pizzabagare</td>
+            <td>Pizzabagare</td>
         </tr>
         <tr>
             <td>2014</td>
@@ -46,7 +61,7 @@
     </table>
     <hr>
     <h1>Skills</h1>
-    <table>
+    <table class="skills">
         <tr>
             <td>Python</td>
             <td><progress max="100" value="80"></progress></td>
@@ -60,7 +75,7 @@
             <td>⭐⭐⭐⭐⭐</td>
         </tr>
     </table>
-    <hr size="3" noshade>
+    <hr>
     <video autoplay muted controls loop id="myVideo" src="images/big_buck_bunny_480p_30mb.mp4" ></video>
     <fieldset>
         <legend>Find us</legend>
